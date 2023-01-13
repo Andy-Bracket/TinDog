@@ -7,26 +7,21 @@ body {
     color: #fff;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat";
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    
-    
-}
-
-h2{
-    font-family: "Montserrat";
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 1.5;
 }
 
 .container-fluid {
     padding: 3% 15% 7%;
 }
 
+/* Headings */
+
+.big-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
 
 /* Navbar Section */
 
@@ -137,6 +132,12 @@ h2{
     margin: 20px 20px 50px;
 }
 
+.testimonial-text {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
 /* Pricing Section */
 
 #pricing {
@@ -152,6 +153,12 @@ h2{
     margin-bottom: 57px;
 }
 
+.price-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
 /* Call To Action Section */
 
 #cta {
@@ -162,11 +169,10 @@ h2{
 
 .cta-slogan {
     font-family: "Montserrat";
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 900;
     line-height: 1.5;
     color: #fff;
-    width: 60%;
     margin: auto;
     padding: 2.5rem 2.5rem;
 }
